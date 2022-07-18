@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dev_Nguyên</title>
+    <link rel="icon" href="./images/devnguyen.png" />
+    <link rel="stylesheet" href="./style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" charset="utf-8"></script>
+</head>
+<style>
+    body{display:block;-khtml-user-select:none;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;-o-user-select:none;user-select:none;unselectable:on;}
+</style>
+<body>
+    <div id="preloader">
+        <div class="preloader-text">
+            <div class="devnguyen-animated-text">
+                <span>Loading</span>
+                <span>.</span>
+                <span>.</span>
+                <span>.</span>
+            </div>
+        </div>
+    </div>
+    <!-- <div class="login-loader">
+        <form action="index.html" class="login-form">
+            <h2>Login</h2>
+            <div class="txtb">
+                <input type="text">
+                <span data-placeholder="Username"></span>
+            </div>
+    
+            <div class="txtb">
+                <input type="password">
+                <span data-placeholder="Password"></span>
+            </div>
+    
+            <input type="submit" class="logbtn" value="Login">
+    
+            <div class="bottom-text">
+                Don't have account? <a href="./page/register.html">Register</a>
+            </div>
+        </form>
+
+        <script type="text/javascript" src="./javascript/login.js"></script>
+    </div> -->
+    <section>
+        <h1>Website <p></p> is in progress
+            <div class="progress">
+                <div class="progress__fill"></div>
+                <span class="progress__text">
+                    <div id="number"></div>
+                </span>
+            </div>
+            <!-- <div id="number"></div> -->
+        </h1>
+        
+        <div class="devnguyen-animated-text">
+            <div class="devnguyen-time">
+                <span id="devnguyen-hour"></span>
+                <span id="devnguyen-date"></span>
+            </div>
+        </div>
+    </section>
+    <script>
+        var loader = document.getElementById("preloader");
+        window.addEventListener("load", function() {
+            loader.style.display = "none";
+        })
+    </script>
+</body>
+<script type="text/javascript" src="./javascript/numbercircle.js"></script>
+<script type="text/javascript" src="./javascript/scriptclock.js"></script>
+<script type="text/javascript" src="./javascript/anticoppy.js"></script>
+<script type="text/javascript" src="./javascript/mousehoa.js"></script>
+</html>
